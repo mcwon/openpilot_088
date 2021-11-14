@@ -149,8 +149,8 @@ class CarInterface(CarInterfaceBase):
       ret.mass = 1380. + STD_CARGO_KG
       ret.wheelbase = 2.65
     elif candidate == CAR.KONA:
-      ret.mass = 1275. + STD_CARGO_KG
-      ret.wheelbase = 2.7
+      ret.mass = 1743. + STD_CARGO_KG
+      ret.wheelbase = 2.6
     elif candidate in [CAR.KONA_HEV, CAR.KONA_EV]:
       ret.mass = 1425. + STD_CARGO_KG
       ret.wheelbase = 2.6
